@@ -18,32 +18,39 @@
 
     <link rel="icon" href="/images/favicon.png">
 
-    <title>KNDesigns</title>
+    <title class="original">Don't forget us!</title>
 </head>
 
 <body>
+
+
+
+
+
+
     <header id="landingbanner">
         <div class="container content-spacing">
             <div class="row text-center">
-                <div class="col-md-2"><a href="/index.html"><img class="mt-3" src="/images/mainlogo.jpg" alt="logo"
+                <div class="col-md-2"><a href="/index.html"><img class="mt-2" src="/images/mainlogo.jpg" alt="logo"
                             width="60"></a></div>
                 <div class="col-md-2"></div>
 
 
-                <div class="col-md-4">
-                    <h1 class="index-tagline">Successful Creative Designs With<span class="colour-style"> Passion</span>
-                        And <span class="colour-style">Professionalism.</span></h1>
+                <div class="col-sm-4 m-auto">
+                    <h2 class="index-tagline text-center py-5">Successful Creative Designs With<span
+                            class="colour-style"> Passion</span>
+                        And <span class="colour-style">Professionalism.</span></h2>
                 </div>
-                <div class="col-md-2"> </div>
+                <div class="col-md-2"></div>
 
-                <div class="col-md-2 content-spacing">
+                <div class="col-md-1 content-spacing">
                     <ul class="desktop-show nav nav-tabs">
                         <li role="presentation"><a href="/portfolio.html">Digital Portfolio</a></li>
                         <li role="presentation"><a href="/aboutme.html">About Me</a></li>
                         <li role="presentation"><a href="/contactme.html">Contact Me</a></li>
                     </ul>
 
-                    <nav class=" mobile-show navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="mobile-show navbar navbar-expand-sm navbar-light">
 
                         <button class="ml-auto mr-auto navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -53,13 +60,13 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav nav">
                                 <li class="nav-item active p-4">
-                                    <a href="/portfolio.html">Digital Portfolio</a>
+                                    <a class="nav-link" href="/portfolio.html">Digital Portfolio</a>
                                 </li>
                                 <li class="nav-item p-4">
-                                    <a href="/aboutme.html">About Me</a></li>
+                                    <a class="nav-link" href="/aboutme.html">About Me</a></li>
                                 </li>
                                 <li class="nav-item p-4">
-                                    <a href="/contactme.html">Contact Me</a></li>
+                                    <a class="nav-link" href="/contactme.html">Contact Me</a></li>
                                 </li>
 
                             </ul>
@@ -88,18 +95,21 @@
 
     </header>
 
+
+
     <section id="hello">
         <div class="container content-spacing">
-            <div class="row text-left">
+            <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <h1 class="text-center">HELLO! <br>BONJOUR!<br> <span class="colour-style">NAMASTE!</span></h1>
                 </div>
 
-                <div class="col-md-6">
-                    <p>What can I do for you!</p> <br>
+                <div class="col-md-6 p-4">
+                    <p class="text-center">What can I do for you?</p> <br>
 
-                    <p>I love creating logos, posters and working on <br> multiple marketing campaigns for print and
+                    <p class="text-center">I love creating logos, posters and working on <br> multiple marketing
+                        campaigns for print and
                         social media.</p>
                 </div>
 
@@ -113,143 +123,102 @@
 
     <section id="Posters">
         <div class="container content-spacing">
-            <div class="row">
-                <div class="col-md-3 m-auto">
+
+
+
+            <div class="row m-auto p-5">
+
+
+                <div class="col-sm-3">
                     <hr>
                     <h1 <span class="colour-style">Posters</h1>
                     <p>A COMBINATION OF PROJECTS THAT WERE DONE AT THE CENTER FOR ARTS AND TECHNOLOGY.</p>
                     <p <span class="colour-style2"><a href="/portfolio.html">View more</a></p>
                     <p <span class="colour-style">Updated: June 2020</p>
-
                 </div>
 
 
 
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"
-                        data-whatever="@mdo"><img src="/images/1x/spraycan.png" alt="" class="img-fluid"></button>
-                </div>
-                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Montana Colors</h5>
 
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/1x/spraycan.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="column">
+                    <img src="/images/1x/spraycan.png" onclick="openModal();currentSlide(1)" class="hover-shadow"
+                        style="width:100%;max-width:150px">
                 </div>
-
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalTwo"
-                        data-whatever="@mdo"><img src="/images/madrussian.jpg" alt="" class="img-fluid"></button>
+                <div class="column">
+                    <img src="/images/1x/madrussian.png" onclick="openModal();currentSlide(2)" class="hover-shadow"
+                        style="width:100%;max-width:150px">
                 </div>
-                <div class="modal fade" id="exampleModalTwo" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">MAD Russian Circus</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/madrussian.jpg" alt="" class="img-fluid">
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="column">
+                    <img src="/images/1x/doggo.png" onclick="openModal();currentSlide(3)" class="hover-shadow"
+                        style="width:100%;max-width:150px">
                 </div>
-
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalThree"
-                        data-whatever="@mdo"><img src="/images/1x/doggo.png" alt="" class="img-fluid"></button>
-                </div>
-                <div class="modal fade" id="exampleModalThree" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Doggothon</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/1x/doggo.png" alt="" class="img-fluid">
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalFour"
-                        data-whatever="@mdo"><img src="/images/1x/buds.png" alt="" class="img-fluid"></button>
-                </div>
-                <div class="modal fade" id="exampleModalFour" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Barley Bud Fest</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/1x/buds.png" alt="" class="img-fluid">
-                                <span class="align-middle">middle</span>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-1">
-                    <!--leave this empty-->
+                <div class="column">
+                    <img src="/images/1x/buds.png" onclick="openModal();currentSlide(4)" class="hover-shadow"
+                        style="width:100%;max-width:150px">
                 </div>
 
 
             </div>
-        </div>
+
+            <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="/images/1x/spraycan.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="/images/1x/madrussian.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="/images/1x/doggo.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="/images/1x/buds.png" style="width:100%">
+                    </div>
+
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Caption text -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <!-- Thumbnail image controls -->
+                    <div class="row no-marg">
+                        <div class="col-3 no-pad">
+                            <img class="demo img-fluid" src="/images/1x/spraycan.png" onclick="currentSlide(1)"
+                                alt="Montana Colors">
+                        </div>
+                        <div class="col-3 no-pad">
+                            <img class="demo img-fluid" src="/images/1x/madrussian.png" onclick="currentSlide(2)"
+                                alt="Mad Russian Circus">
+                        </div>
+                        <div class="col-3 no-pad">
+                            <img class="demo img-fluid" src="/images/1x/doggo.png" onclick="currentSlide(3)"
+                                alt="Dogathon Charity Event">
+                        </div>
+                        <div class="col-3 no-pad">
+                            <img class="demo img-fluid" src="/images/1x/buds.png" onclick="currentSlide(4)"
+                                alt="Budbarley Fest">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-        <script>
-            $('#exampleModal').on('show.bs.modal', function (event) {
-                var button = $(event.relatedTarget) // Button that triggered the modal
-                var recipient = button.data('whatever') // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-                var modal = $(this)
-                modal.find('.modal-title').text('New message to ' + recipient)
-                modal.find('.modal-body input').val(recipient)
-            })
-        </script>
 
 
-        </div>
-
-
-        </div>
     </section>
 
 
@@ -283,11 +252,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img src="/images/Asset 1bud.png" alt="" class="img-fluid">
+                                <img src="/images/Asset 1bud.png" alt="" class="img-fluid2">
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -307,11 +274,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img src="/images/Asset 1coffee.png" alt="" class="img-fluid">
+                                <img src="/images/Asset 1coffee.png" alt="" class="img-fluid2">
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -331,11 +296,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img src="/images/Asset 2aga.png" alt="" class="img-fluid">
+                                <img src="/images/Asset 2aga.png" alt="" class="img-fluid2">
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -355,11 +318,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img src="/images/Asset 2seekers.png" alt="" class="img-fluid">
+                                <img src="/images/Asset 2seekers.png" alt="" class="img-fluid2">
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -373,17 +334,6 @@
         </div>
 
 
-        <script>
-            $('#exampleModal').on('show.bs.modal', function (event) {
-                var button = $(event.relatedTarget) // Button that triggered the modal
-                var recipient = button.data('whatever') // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-                var modal = $(this)
-                modal.find('.modal-title').text('New message to ' + recipient)
-                modal.find('.modal-body input').val(recipient)
-            })
-        </script>
 
 
         </div>
@@ -426,11 +376,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img src="/images/MERCH2.png" alt="" class="img-fluid">
+                                <img src="/images/MERCH2.png" alt="" class="img-fluid2">
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -450,11 +398,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img src="/images/MAGAZINE.jpg" alt="" class="img-fluid">
+                                <img src="/images/MAGAZINE.jpg" alt="" class="img-fluid2">
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -474,11 +420,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img src="/images/TYPEBOOK.jpg" alt="" class="img-fluid">
+                                <img src="/images/TYPEBOOK.jpg" alt="" class="img-fluid2">
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -499,11 +443,9 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <img src="/images/Vinyl Record  MockUp (FRONT).jpg" alt="" class="img-fluid">
+                                <img src="/images/Vinyl Record  MockUp (FRONT).jpg" alt="" class="img-fluid2">
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -517,17 +459,7 @@
         </div>
 
 
-        <script>
-            $('#exampleModal').on('show.bs.modal', function (event) {
-                var button = $(event.relatedTarget) // Button that triggered the modal
-                var recipient = button.data('whatever') // Extract info from data-* attributes
-                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-                var modal = $(this)
-                modal.find('.modal-title').text('New message to ' + recipient)
-                modal.find('.modal-body input').val(recipient)
-            })
-        </script>
+
 
 
         </div>
@@ -612,17 +544,13 @@
 
 
 
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
+
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 
 </html>
