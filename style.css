@@ -118,6 +118,17 @@ ul a {
     list-style-type: none;
     text-align: right;
 }
+.desktop-show nav-tabs li {
+    padding-top: 60px;
+    text-decoration: none;
+    
+   
+    transform: rotate(100deg);
+   
+    transform-origin: center center;
+    list-style-type: none;
+    text-align: right;
+}
 
 .nav-tabs li a {
     display: block;
