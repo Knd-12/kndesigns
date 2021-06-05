@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <!--fancybox-->
+    <link rel="stylesheet" href="/css/fancybox.min.css">
+
     <!-- CSS File -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="icon" href="/images/favicon.png">
 
-    <title class="original">Don't forget us!</title>
+    <title class="original">KNDesigns-Graphic Designer</title>
 </head>
 
 <body>
@@ -118,9 +123,6 @@
 
 
 
-
-
-
     <section id="Posters">
         <div class="container content-spacing">
 
@@ -130,7 +132,7 @@
 
 
                 <div class="col-sm-3">
-                    <hr>
+                   
                     <h1 <span class="colour-style">Posters</h1>
                     <p>A COMBINATION OF PROJECTS THAT WERE DONE AT THE CENTER FOR ARTS AND TECHNOLOGY.</p>
                     <p <span class="colour-style2"><a href="/portfolio.html">View more</a></p>
@@ -141,80 +143,30 @@
 
 
                 <div class="column">
-                    <img src="/images/1x/spraycan.png" onclick="openModal();currentSlide(1)" class="hover-shadow"
-                        style="width:100%;max-width:150px">
+                    <a href="/images/1x/spraycan.png" data-fancybox="gallery-poster" data-caption="Montana Colors Poster Advertisment">
+                    <img src="/images/1x/spraycan.png" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
                 <div class="column">
-                    <img src="/images/1x/madrussian.png" onclick="openModal();currentSlide(2)" class="hover-shadow"
-                        style="width:100%;max-width:150px">
+                    <a href="/images/1x/madrussian.png" data-fancybox="gallery-poster" data-caption="Caption #2">
+                    <img src="/images/1x/madrussian.png" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
                 <div class="column">
-                    <img src="/images/1x/doggo.png" onclick="openModal();currentSlide(3)" class="hover-shadow"
-                        style="width:100%;max-width:150px">
+                    <a href="/images/1x/doggo.png" data-fancybox="gallery-poster" data-caption="Caption #2">
+                    <img src="/images/1x/doggo.png" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
                 <div class="column">
-                    <img src="/images/1x/buds.png" onclick="openModal();currentSlide(4)" class="hover-shadow"
-                        style="width:100%;max-width:150px">
+                    <a href="/images/1x/buds.png" data-fancybox="gallery-poster" data-caption="Caption #2">
+                    <img src="/images/1x/buds.png" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
-
-
+                
+                
             </div>
-
-            <!-- The Modal/Lightbox -->
-            <div id="myModal" class="modal">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
-                <div class="modal-content">
-
-                    <div class="mySlides">
-                        <div class="numbertext">1 / 4</div>
-                        <img src="/images/1x/spraycan.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext">2 / 4</div>
-                        <img src="/images/1x/madrussian.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext">3 / 4</div>
-                        <img src="/images/1x/doggo.png" style="width:100%">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext">4 / 4</div>
-                        <img src="/images/1x/buds.png" style="width:100%">
-                    </div>
-
-                    <!-- Next/previous controls -->
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                    <!-- Caption text -->
-                    <div class="caption-container">
-                        <p id="caption"></p>
-                    </div>
-
-                    <!-- Thumbnail image controls -->
-                    <div class="row no-marg">
-                        <div class="col-3 no-pad">
-                            <img class="demo img-fluid" src="/images/1x/spraycan.png" onclick="currentSlide(1)"
-                                alt="Montana Colors">
-                        </div>
-                        <div class="col-3 no-pad">
-                            <img class="demo img-fluid" src="/images/1x/madrussian.png" onclick="currentSlide(2)"
-                                alt="Mad Russian Circus">
-                        </div>
-                        <div class="col-3 no-pad">
-                            <img class="demo img-fluid" src="/images/1x/doggo.png" onclick="currentSlide(3)"
-                                alt="Dogathon Charity Event">
-                        </div>
-                        <div class="col-3 no-pad">
-                            <img class="demo img-fluid" src="/images/1x/buds.png" onclick="currentSlide(4)"
-                                alt="Budbarley Fest">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <hr class="black-line">
+        </div>
 
 
 
@@ -225,9 +177,9 @@
 
     <section id="logos">
         <div class="container content-spacing">
-            <div class="row">
-                <div class="col-md-3 m-auto">
-                    <hr>
+            <div class="row m-auto p-5">
+                <div class="col-sm-3">
+                  
                     <h1 <span class="colour-style">Logos</h1>
                     <p>A COMBINATION OF PROJECTS THAT WERE DONE AT THE CENTER FOR ARTS AND TECHNOLOGY.</p>
                     <p <span class="colour-style2"><a href="/portfolio.html">View more</a></p>
@@ -235,95 +187,31 @@
 
                 </div>
 
-
-
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#budbarley"
-                        data-whatever="@mdo"><img src="/images/Asset 1bud.png" alt="" class="img-fluid"></button>
+                
+                <div class="column">
+                    <a href="/images/Asset 1bud.png" data-fancybox="gallery-logo" data-caption="Budbarley Fest logo">
+                    <img src="/images/Asset 1bud.png" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
-                <div class="modal fade" id="budbarley" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="1">Budbarley Fest 2020</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/Asset 1bud.png" alt="" class="img-fluid2">
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="column">
+                    <a href="/images/Asset 1coffee.png" data-fancybox="gallery-logo" data-caption="Caption #2">
+                    <img src="/images/Asset 1coffee.png" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
+                </div>
+                <div class="column">
+                    <a href="/images/Asset 2aga.png" data-fancybox="gallery-logo" data-caption="Caption #2">
+                    <img src="/images/Asset 2aga.png" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
+                </div>
+                <div class="column">
+                    <a href="/images/Asset 2seekers.png" data-fancybox="gallery-logo" data-caption="Caption #2">
+                    <img src="/images/Asset 2seekers.png" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
 
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#coffee"
-                        data-whatever="@mdo"><img src="/images/Asset 1coffee.png" alt="" class="img-fluid"></button>
-                </div>
-                <div class="modal fade" id="coffee" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Coffe Bean and Tea Leaf</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/Asset 1coffee.png" alt="" class="img-fluid2">
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#aga" data-whatever="@mdo"><img
-                            src="/images/Asset 2aga.png" alt="" class="img-fluid"></button>
-                </div>
-                <div class="modal fade" id="aga" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Aga Spa</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/Asset 2aga.png" alt="" class="img-fluid2">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#seekers"
-                        data-whatever="@mdo"><img src="/images/Asset 2seekers.png" alt="" class="img-fluid"></button>
-                </div>
-                <div class="modal fade" id="seekers" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Seekers</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/Asset 2seekers.png" alt="" class="img-fluid2">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div class="col-md-1">
                     <!--leave this empty-->
@@ -331,6 +219,7 @@
 
 
             </div>
+            <hr class="black-line">
         </div>
 
 
@@ -345,13 +234,11 @@
 
 
 
-
-
     <section id="Mock-ups">
         <div class="container content-spacing">
-            <div class="row">
-                <div class="col-md-3 m-auto">
-                    <hr>
+            <div class="row m-auto p-5">
+                <div class="col-sm-3">
+                  
                     <h1 <span class="colour-style">Mock-ups</h1>
                     <p>A COMBINATION OF PROJECTS THAT WERE DONE AT THE CENTER FOR ARTS AND TECHNOLOGY.</p>
                     <p <span class="colour-style2"><a href="/portfolio.html">View more</a></p>
@@ -361,94 +248,27 @@
 
 
 
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#merch2"
-                        data-whatever="@mdo"><img src="/images/MERCH2.png" alt="" class="img-fluid"></button>
+                <div class="column">
+                    <a href="/images/MAGAZINE.jpg" data-fancybox="gallery-mockup" data-caption="Budbarley Fest logo">
+                    <img src="/images/MAGAZINE.jpg" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
-                <div class="modal fade" id="merch2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="1">West Kelowna Shelter Society</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/MERCH2.png" alt="" class="img-fluid2">
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="column">
+                    <a href="/images/travel_guide.jpg" data-fancybox="gallery-mockup" data-caption="Caption #2">
+                    <img src="/images/travel_guide.jpg" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
-
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#mag" data-whatever="@mdo"><img
-                            src="/images/MAGAZINE.jpg" alt="" class="img-fluid"></button>
+                <div class="column">
+                    <a href="/images/TYPEBOOK.jpg" data-fancybox="gallery-mockup" data-caption="Caption #2">
+                    <img src="/images/TYPEBOOK.jpg" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
-                <div class="modal fade" id="mag" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Artwoke Magazine</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/MAGAZINE.jpg" alt="" class="img-fluid2">
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="column">
+                    <a href="/images/Vinyl Record  MockUp (FRONT).jpg" data-fancybox="gallery-mockup" data-caption="Caption #2">
+                    <img src="/images/Vinyl Record  MockUp (FRONT).jpg" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
                 </div>
 
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#typebook"
-                        data-whatever="@mdo"><img src="/images/TYPEBOOK.jpg" alt="" class="img-fluid"></button>
-                </div>
-                <div class="modal fade" id="typebook" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Typebook</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/TYPEBOOK.jpg" alt="" class="img-fluid2">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-2 py-5">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#arctic"
-                        data-whatever="@mdo"><img src="/images/Vinyl Record  MockUp (FRONT).jpg" alt=""
-                            class="img-fluid"></button>
-                </div>
-                <div class="modal fade" id="arctic" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Arctic Monkeys</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <img src="/images/Vinyl Record  MockUp (FRONT).jpg" alt="" class="img-fluid2">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-md-1">
                     <!--leave this empty-->
@@ -456,6 +276,7 @@
 
 
             </div>
+            <hr class="black-line">
         </div>
 
 
@@ -470,31 +291,74 @@
     </section>
 
 
+    
+    <section id="extra works">
+        <div class="container content-spacing">
+
+
+
+            <div class="row m-auto p-5">
+
+
+                <div class="col-sm-3">
+                    
+                    <h1 <span class="colour-style">Extra Works</h1>
+                    <p>A COMBINATION OF PROJECTS THAT WERE DONE AT THE CENTER FOR ARTS AND TECHNOLOGY.</p>
+                    <p <span class="colour-style2"><a href="/portfolio.html">View more</a></p>
+                    <p <span class="colour-style">Updated: June 2020</p>
+                </div>
 
 
 
 
+                <div class="column">
+                    <a href="https://youtu.be/1_5HhD_14E8" data-fancybox="gallery-poster" data-caption="Montana Colors Poster Advertisment">
+                    <img src="/images/office.jpg" class="hover-shadow"
+                        style="width:100%;max-width:150px"></a>
+                </div>
+                <div class="column">
+                    <a data-fancybox data-type="iframe" data-src="https://travelgram.kndesigns.co/" href="javascript:;">
+                        <img src="/images/travelgram.JPG" class="hover-shadow" style="width:100%;max-width:150px"
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-fancybox data-type="iframe" data-src="https://rush.kndesigns.co/" href="javascript:;">
+                        <img src="/images/rush.JPG" class="hover-shadow" style="width:100%; max-width:150px"
+                    </a>
+                </div>
+                <div class="column">
+                    <a data-fancybox data-type="iframe" data-src="https://potmyplant.kndesigns.co/" href="javascript:;">
+                        <img src="/images/potmyplant.JPG" class="hover-shadow" style="width:100%; max-width:150px">
+                    </a>
+                </div>
+                
+                
+
+
+            </div>
+            
+        </div>
 
 
 
 
-
-
-
+    </section>
 
 
     <section id="contactform">
         <div class="container content-spacing">
             <div class="row">
 
-                <div class="col-md-4">
-                    <h1> REACH OUT!</h1>
+               
+                <div class="col-md-2 footer-logo no-marg no-pad"><a href="/index.html"><img class="mt-2" src="/images/Asset 2logo2.png" alt="logo"
+                    width="60"></a>
                 </div>
 
 
-                <div class="col-md-4">
+                <div class="col-sm-8">
+                    <h2 class="colour-style p-4"> REACH OUT!</h2>
 
-                    <form action="mailer.php" method="POST">
+                    <form action="mailer.php" method="POST" class="p-4">
                         <div class="form-group">
                             <input type="text" name="fullname" placeholder="Full Name" class="form-control" />
                         </div>
@@ -509,11 +373,12 @@
                     </form>
                 </div>
 
-                <div class="col-4 p-4">
+                <div class="col-sm-2">
                     <ul class="socialmedia">
+                        <p class=" colour-style p-2 py-2">Follow Me:</p>
                         <li class="list-item p-2"><a href="https://www.facebook.com/" target="_blank">Facebook</a>
                         </li>
-                        <li class="list-item p-2"><a href="https://www.instagram.com//" target="_blank">Instagram</a>
+                        <li class="list-item p-2"><a href="https://www.instagram.com/" target="_blank">Instagram</a>
                         </li>
                         <li class="list-item p-2"><a href="https://www.Linkedin.com/" target="_blank">Linkedin</a>
                         </li>
@@ -529,14 +394,17 @@
     </section>
 
 
-    <div class="col-12 copyright-notice p-3">
+    <div class="col-12 copyright-notice p-2">
         <div class="container">
             <div class="content-asset">
-                <p>©2020 KNDesigns. View our <a href="/index.html">Terms of Use</a> and conditions </p>
+                <p>©2020 KNDesigns. View our <a class="colour-style" href="/index.html">Terms of Use</a> and conditions </p>
             </div>
         </div>
     </div>
 
+
+
+ 
 
 
 
@@ -547,10 +415,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
+    
     <script src="/js/jquery-3.5.1.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/fancybox.min.js"></script>
     <script src="/js/scripts.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+
 </body>
 
 </html>
